@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spend.In</title>
   </head>
@@ -41,27 +47,25 @@
         </div>
       </nav>
 
-      <div class="wrapper">
-        <header>
-          <div class="hero">
-            <h1>All your business expenses in one place.</h1>
+      <header>
+        <div class="hero">
+          <h1><span>All your</span> business expenses in one place.</h1>
 
-            <p>
-              Your one-stop finance empower platform. Manage all your business
-              expenses with our supafast app.
-            </p>
+          <p>
+            Your one-stop finance empower platform. Manage all your business
+            expenses with our supafast app.
+          </p>
 
-            <div class="hero__cta">
-              <a href="#">Get a Free Demo</a>
-              <a href="#">see Pricing</a>
-            </div>
+          <div class="hero__cta">
+            <a class="pill link-primary" href="#">Get a Free Demo</a>
+            <a class="pill link-secondary" href="#">see pricing</a>
           </div>
+        </div>
 
-          <div class="hero-banner">
-            <img src="./src/assets/images/Dashboard.png" alt="Dashboard" />
-          </div>
-        </header>
-      </div>
+        <div class="hero-banner">
+          <img src="./src/assets/images/dashboard-hq.svg" alt="Dashboard" />
+        </div>
+      </header>
 
       <main>
         <div class="wrapper">
@@ -137,8 +141,10 @@
         <div class="wrapper">
           <section class="benefit-second">
             <div class="benefit-second__heading">
-              <h2>why use spend.in</h2>
-              <p>easy, simple, affordable</p>
+              <div class="title">
+                <h2>why use spend.in</h2>
+                <p>easy, simple, affordable</p>
+              </div>
               <p>
                 Our platform helps your business in managing expenses. These are
                 some of the reasons why you should use our platform in managing
@@ -234,8 +240,8 @@
             </ol>
 
             <div class="how-first__cta">
-              <a href="#">Get a Free Demo</a>
-              <a href="#">See Pricing</a>
+              <a class="pill link-primary" href="#">Get a Free Demo</a>
+              <a class="pill link-secondary" href="#">See Pricing</a>
             </div>
           </section>
         </div>
@@ -278,8 +284,8 @@
             <div class="success__content">
               <div class="successes">
                 <div class="success__content__cta">
-                  <button>With Spend.In</button>
-                  <button>Without Spend.In</button>
+                  <button class="pill">With Spend.In</button>
+                  <button class="pill">Without Spend.In</button>
                 </div>
 
                 <p>Track Business Expenses until its Milisecond</p>
@@ -442,7 +448,7 @@
                   <li>100+ integrations</li>
                 </ul>
 
-                <a href="#">get your free plan</a>
+                <a class="pill link-primary" href="#">get your free plan</a>
               </article>
 
               <article class="pricing__plan">
@@ -472,7 +478,7 @@
                   <li>100+ integrations</li>
                 </ul>
 
-                <a href="#">get started</a>
+                <a class="pill link-primary" href="#">get started</a>
               </article>
 
               <article class="pricing__plan">
@@ -502,7 +508,7 @@
                   <li>Advanced security</li>
                 </ul>
 
-                <a href="#">get started</a>
+                <a class="pill link-primary" href="#">get started</a>
               </article>
             </div>
           </section>
@@ -516,7 +522,7 @@
               Are you ready to make your business more organized? Download
               Spend.In now!
             </p>
-            <a href="#">Get a Free Demo</a>
+            <a class="pill" href="#">Get a Free Demo</a>
           </div>
 
           <div>
@@ -595,9 +601,9 @@
               <a href="#">terms & conditions</a>
               <a href="#">cookie policy</a>
             </div>
-          </div>
 
-          <small>&copy;Picko Lab 2022</small>
+            <small>&copy;Picko Lab 2022</small>
+          </div>
         </footer>
       </div>
     </div>
